@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": 
+	{
+		"cmake.generator": "Ninja",
+		"cmake.buildDirectory": "${workspaceFolder}/build",
+		"cmake.configureOnOpen": true,
+		"cmake.parallelJobs": 8,
+		"cmake.loggingLevel": "WARN"
+	}
+}

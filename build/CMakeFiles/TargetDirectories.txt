@@ -1,0 +1,3 @@
+C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/Tetris_in_C.dir
+C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/ZERO_CHECK.dir

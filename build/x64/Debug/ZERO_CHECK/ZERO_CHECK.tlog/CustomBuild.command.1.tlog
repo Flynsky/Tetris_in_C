@@ -1,0 +1,10 @@
+^C:\USERS\FGEWI\DOCUMENTS\FYNN\PROJEKTE\SOFTWARE\TETRIS IN C\BUILD\CMAKEFILES\5F46DC166C9B80649B873DCAFC4239BD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C" "-BC:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/Tetris_in_C.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
