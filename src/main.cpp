@@ -11,7 +11,6 @@ int main()
     print_fps();
     fill_field(field, LENGHT_X, LENGHT_Y, 'O');
     draw_field(field, LENGHT_X, LENGHT_Y);
-
     return 0;
 }
 
