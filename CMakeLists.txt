@@ -7,7 +7,7 @@ project(Tetris_in_C) # Name of your project
 
 # Add an executable target named 'my_project'
 add_executable(Tetris_in_C
-    src/main.cpp # Source files for the executable
+    src/game_engine.cpp # Source files for the executable
 )
 
 # Add precompiled headers

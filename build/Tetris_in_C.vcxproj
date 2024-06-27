@@ -335,7 +335,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/Tetris_in_C.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/Tetris_in_C.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
     </ClCompile>
-    <ClCompile Include="C:\Users\fgewi\Documents\Fynn\Projekte\Software\Tetris in C\src\main.cpp">
+    <ClCompile Include="C:\Users\fgewi\Documents\Fynn\Projekte\Software\Tetris in C\src\game_engine.cpp">
       <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/Tetris_in_C.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/Tetris_in_C.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/Tetris_in_C.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
