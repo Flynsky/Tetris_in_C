@@ -9,7 +9,7 @@ char field[LENGHT_X * LENGHT_Y] = {0};
 
 int main()
 {
-    setup();
+    // setup();
     gemeloop();
     return 0;
 }
@@ -23,10 +23,11 @@ void gemeloop()
         {
             last_tick = millis() + tick_time;
             static u_int a = 0;
-            fill_field_with_char(FIELD_CALL, 'O');
-            draw_point(FIELD_CALL, 1, a, 'X');
+            fill_field_with_char(&_field, 'O');
+            draw_point(&_field, 1, a, 'X');
             a += 1;
-            draw_field(FIELD_CALL);
+            draw_field(&_field);
+            // break;
         }
     }
 }
@@ -81,20 +82,18 @@ unsigned long long millis()
     return (counter.QuadPart * 1000ULL) / frequency.QuadPart;
 }
 
-
-
 /**
  *draws a single char int the field
  */
-void draw_point(FIELD_METHOD, const unsigned int Xpos, const unsigned int Ypos, char block)
+void draw_point(struct field * _field, const unsigned int Xpos, const unsigned int Ypos, char block)
 {
-    field[Xpos + LENGHT_X * Ypos] = block;
+    _field->buffer[Xpos + LENGHT_X * Ypos] = block;
 }
 
 /**
  * places a block
  */
-void draw_block(FIELD_METHOD, const unsigned int Xpos, const unsigned int Ypos, const unsigned int Type)
+void draw_block(struct field * _field, const unsigned int Xpos, const unsigned int Ypos, const unsigned int Type)
 {
     switch (Type)
     {
@@ -107,42 +106,56 @@ void draw_block(FIELD_METHOD, const unsigned int Xpos, const unsigned int Ypos, 
     }
 }
 
-void fill_field_with_char(FIELD_METHOD, const char character)
+void fill_field_with_char(struct field *_field, const char character)
 {
-    for (unsigned int i = 0; i < (lenght_y * lenght_x); i++)
+    for (unsigned int i = 0; i < (_field->length_x * _field->length_y); i++)
     {
-        field[i] = character;
+        _field->buffer[i] = character;
     }
 }
 
 /**outputs the field to the console */
-void draw_field(const FIELD_METHOD)
+void draw_field(struct field *_field)
 {
-    const int lenght_row = lenght_x * 2 + 2; // with start and end simbol
-    const int size_buffer = sizeof(char) * lenght_row * lenght_y - 1;
+    // for(unsigned int i = 0;i<_field->length_x*_field->length_y;i++){
+    //     printf("%c",_field->buffer[i]);
+    // }
+
+    const int lenght_row = _field->length_x * 2 + 2; // with start and end simbol
+    unsigned int ansi_len = 6;
+
+    const unsigned int size_buffer = ansi_len * sizeof(char) + sizeof(char) * lenght_row * _field->length_y;
 
     char *consoleBuffer = (char *)malloc(size_buffer);
+    if (!consoleBuffer)
+    {
+        printf("malloc error in drwa_field");
+        return;
+    }
 
-    for (int y = 0; y < lenght_y; y += 1)
+    for (unsigned int y = 0; y < _field->length_y; y += 1)
     {
         consoleBuffer[y * lenght_row] = '|';
-        for (int x = 0; x < lenght_x; x += 1)
+        for (unsigned int x = 0; x < _field->length_x; x += 1)
         {
-            consoleBuffer[y * lenght_row + x * 2 + 1] = field[x + y * lenght_y];
+            consoleBuffer[y * lenght_row + x * 2 + 1] = _field->buffer[x + y * _field->length_y]; //_field->buffer[x + y * _field->length_y]
             consoleBuffer[y * lenght_row + x * 2 + 2] = '|';
         }
-        consoleBuffer[y * lenght_row - 1] = '\n';
+        consoleBuffer[y * lenght_row + lenght_row - 1] = '\n';
     }
-    clear_terminal();
+
+    memmove(consoleBuffer + ansi_len, consoleBuffer, size_buffer-ansi_len);
+    memcpy(consoleBuffer, ANSI_CLEAR_SCREEN, ansi_len);
     fwrite(consoleBuffer, sizeof(char), size_buffer, stdout);
     fflush(stdout);
+    free(consoleBuffer);
 }
 
 void clear_terminal()
 {
-    system("cls");
-    // printf(ANSI_CLEAR_SCREEN);
-    // printf(ANSI_HOME_CURSOR);
+    // system("cls");
+    printf(ANSI_CLEAR_SCREEN);
+    printf(ANSI_HOME_CURSOR);
     // for(int i = 0;i<(LENGHT_Y+2);i++){
     // printf("\n");}
 }
