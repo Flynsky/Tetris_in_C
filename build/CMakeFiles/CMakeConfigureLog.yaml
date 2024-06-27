@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild-Version 17.10.4+10fbfbf2e f├╝r .NET Framework
-      Der Buildvorgang wurde am 26.06.2024 18:22:34 gestartet.
+      Der Buildvorgang wurde am 26.06.2024 19:08:50 gestartet.
       
       Projekt "C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\3.29.6\\CompilerIdC\\CompilerIdC.vcxproj" auf Knoten "1" (Standardziele).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warnung(en)
           0 Fehler
       
-      Verstrichene Zeit 00:00:02.35
+      Verstrichene Zeit 00:00:02.83
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       MSBuild-Version 17.10.4+10fbfbf2e f├╝r .NET Framework
-      Der Buildvorgang wurde am 26.06.2024 18:22:37 gestartet.
+      Der Buildvorgang wurde am 26.06.2024 19:08:54 gestartet.
       
       Projekt "C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\3.29.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" auf Knoten "1" (Standardziele).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 Warnung(en)
           0 Fehler
       
-      Verstrichene Zeit 00:00:01.98
+      Verstrichene Zeit 00:00:01.81
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-2bwr5y"
-      binary: "C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-2bwr5y"
+      source: "C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-3b22zp"
+      binary: "C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-3b22zp"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-2bwr5y'
+        Change Dir: 'C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-3b22zp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a358a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4fd73.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild-Version 17.10.4+10fbfbf2e f├╝r .NET Framework
-        Der Buildvorgang wurde am 26.06.2024 18:22:39 gestartet.
+        Der Buildvorgang wurde am 26.06.2024 19:08:56 gestartet.
         
-        Projekt "C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2bwr5y\\cmTC_a358a.vcxproj" auf Knoten "1" (Standardziele).
+        Projekt "C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3b22zp\\cmTC_4fd73.vcxproj" auf Knoten "1" (Standardziele).
         PrepareForBuild:
-          Das Verzeichnis "cmTC_a358a.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_4fd73.dir\\Debug\\" wird erstellt.
           Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
-          Das Verzeichnis "C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2bwr5y\\Debug\\" wird erstellt.
-          Das Verzeichnis "cmTC_a358a.dir\\Debug\\cmTC_a358a.tlog\\" wird erstellt.
+          Das Verzeichnis "C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3b22zp\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_4fd73.dir\\Debug\\cmTC_4fd73.tlog\\" wird erstellt.
         InitializeBuildStatus:
-          "cmTC_a358a.dir\\Debug\\cmTC_a358a.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-          Aktualisieren des Timestamps von "cmTC_a358a.dir\\Debug\\cmTC_a358a.tlog\\unsuccessfulbuild".
+          "cmTC_4fd73.dir\\Debug\\cmTC_4fd73.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          Aktualisieren des Timestamps von "cmTC_4fd73.dir\\Debug\\cmTC_4fd73.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a358a.dir\\Debug\\\\" /Fd"cmTC_a358a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4fd73.dir\\Debug\\\\" /Fd"cmTC_4fd73.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++-Optimierungscompiler Version 19.40.33811 f├╝r x64
           Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a358a.dir\\Debug\\\\" /Fd"cmTC_a358a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4fd73.dir\\Debug\\\\" /Fd"cmTC_4fd73.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2bwr5y\\Debug\\cmTC_a358a.exe" /INCREMENTAL /ILK:"cmTC_a358a.dir\\Debug\\cmTC_a358a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-2bwr5y/Debug/cmTC_a358a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-2bwr5y/Debug/cmTC_a358a.lib" /MACHINE:X64  /machine:x64 cmTC_a358a.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_a358a.vcxproj -> C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2bwr5y\\Debug\\cmTC_a358a.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3b22zp\\Debug\\cmTC_4fd73.exe" /INCREMENTAL /ILK:"cmTC_4fd73.dir\\Debug\\cmTC_4fd73.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-3b22zp/Debug/cmTC_4fd73.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-3b22zp/Debug/cmTC_4fd73.lib" /MACHINE:X64  /machine:x64 cmTC_4fd73.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_4fd73.vcxproj -> C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3b22zp\\Debug\\cmTC_4fd73.exe
         FinalizeBuildStatus:
-          Die Datei "cmTC_a358a.dir\\Debug\\cmTC_a358a.tlog\\unsuccessfulbuild" wird gel├Âscht.
-          Aktualisieren des Timestamps von "cmTC_a358a.dir\\Debug\\cmTC_a358a.tlog\\cmTC_a358a.lastbuildstate".
-        Die Erstellung von Projekt "C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2bwr5y\\cmTC_a358a.vcxproj" ist abgeschlossen (Standardziele).
+          Die Datei "cmTC_4fd73.dir\\Debug\\cmTC_4fd73.tlog\\unsuccessfulbuild" wird gel├Âscht.
+          Aktualisieren des Timestamps von "cmTC_4fd73.dir\\Debug\\cmTC_4fd73.tlog\\cmTC_4fd73.lastbuildstate".
+        Die Erstellung von Projekt "C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3b22zp\\cmTC_4fd73.vcxproj" ist abgeschlossen (Standardziele).
         
         Der Buildvorgang wurde erfolgreich ausgef├╝hrt.
             0 Warnung(en)
             0 Fehler
         
-        Verstrichene Zeit 00:00:01.64
+        Verstrichene Zeit 00:00:01.68
         
       exitCode: 0
   -
@@ -210,8 +210,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-8tevlb"
-      binary: "C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-8tevlb"
+      source: "C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-8qn810"
+      binary: "C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-8qn810"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -221,40 +221,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-8tevlb'
+        Change Dir: 'C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-8qn810'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ed7ed.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_372e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild-Version 17.10.4+10fbfbf2e f├╝r .NET Framework
-        Der Buildvorgang wurde am 26.06.2024 18:22:42 gestartet.
+        Der Buildvorgang wurde am 26.06.2024 19:08:58 gestartet.
         
-        Projekt "C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8tevlb\\cmTC_ed7ed.vcxproj" auf Knoten "1" (Standardziele).
+        Projekt "C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qn810\\cmTC_372e0.vcxproj" auf Knoten "1" (Standardziele).
         PrepareForBuild:
-          Das Verzeichnis "cmTC_ed7ed.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_372e0.dir\\Debug\\" wird erstellt.
           Die strukturierte Ausgabe ist aktiviert. Die Formatierung der Compilerdiagnose spiegelt die Fehlerhierarchie wider. Weitere Informationen finden Sie unter https://aka.ms/cpp/structured-output.
-          Das Verzeichnis "C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8tevlb\\Debug\\" wird erstellt.
-          Das Verzeichnis "cmTC_ed7ed.dir\\Debug\\cmTC_ed7ed.tlog\\" wird erstellt.
+          Das Verzeichnis "C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qn810\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_372e0.dir\\Debug\\cmTC_372e0.tlog\\" wird erstellt.
         InitializeBuildStatus:
-          "cmTC_ed7ed.dir\\Debug\\cmTC_ed7ed.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-          Aktualisieren des Timestamps von "cmTC_ed7ed.dir\\Debug\\cmTC_ed7ed.tlog\\unsuccessfulbuild".
+          "cmTC_372e0.dir\\Debug\\cmTC_372e0.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          Aktualisieren des Timestamps von "cmTC_372e0.dir\\Debug\\cmTC_372e0.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ed7ed.dir\\Debug\\\\" /Fd"cmTC_ed7ed.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_372e0.dir\\Debug\\\\" /Fd"cmTC_372e0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++-Optimierungscompiler Version 19.40.33811 f├╝r x64
           Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ed7ed.dir\\Debug\\\\" /Fd"cmTC_ed7ed.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_372e0.dir\\Debug\\\\" /Fd"cmTC_372e0.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8tevlb\\Debug\\cmTC_ed7ed.exe" /INCREMENTAL /ILK:"cmTC_ed7ed.dir\\Debug\\cmTC_ed7ed.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-8tevlb/Debug/cmTC_ed7ed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-8tevlb/Debug/cmTC_ed7ed.lib" /MACHINE:X64  /machine:x64 cmTC_ed7ed.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_ed7ed.vcxproj -> C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8tevlb\\Debug\\cmTC_ed7ed.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qn810\\Debug\\cmTC_372e0.exe" /INCREMENTAL /ILK:"cmTC_372e0.dir\\Debug\\cmTC_372e0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-8qn810/Debug/cmTC_372e0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/fgewi/Documents/Fynn/Projekte/Software/Tetris in C/build/CMakeFiles/CMakeScratch/TryCompile-8qn810/Debug/cmTC_372e0.lib" /MACHINE:X64  /machine:x64 cmTC_372e0.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_372e0.vcxproj -> C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qn810\\Debug\\cmTC_372e0.exe
         FinalizeBuildStatus:
-          Die Datei "cmTC_ed7ed.dir\\Debug\\cmTC_ed7ed.tlog\\unsuccessfulbuild" wird gel├Âscht.
-          Aktualisieren des Timestamps von "cmTC_ed7ed.dir\\Debug\\cmTC_ed7ed.tlog\\cmTC_ed7ed.lastbuildstate".
-        Die Erstellung von Projekt "C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8tevlb\\cmTC_ed7ed.vcxproj" ist abgeschlossen (Standardziele).
+          Die Datei "cmTC_372e0.dir\\Debug\\cmTC_372e0.tlog\\unsuccessfulbuild" wird gel├Âscht.
+          Aktualisieren des Timestamps von "cmTC_372e0.dir\\Debug\\cmTC_372e0.tlog\\cmTC_372e0.lastbuildstate".
+        Die Erstellung von Projekt "C:\\Users\\fgewi\\Documents\\Fynn\\Projekte\\Software\\Tetris in C\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8qn810\\cmTC_372e0.vcxproj" ist abgeschlossen (Standardziele).
         
         Der Buildvorgang wurde erfolgreich ausgef├╝hrt.
             0 Warnung(en)
             0 Fehler
         
-        Verstrichene Zeit 00:00:01.54
+        Verstrichene Zeit 00:00:01.63
         
       exitCode: 0
   -
@@ -285,15 +285,4 @@ events:
       Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.40.33811.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
-...
-
----
-events:
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt:3 (project)"
-    message: |
-      The system is: Windows - 10.0.22631 - AMD64
 ...
